@@ -2,79 +2,196 @@
   margin: 0;
   padding: 0;
 }
-.title {
-  border-left: 3px solid rgb(255, 89, 89);
+/* header section start */
+h2 {
   font-size: 50px;
-  padding-left: 10px;
-  margin-bottom: 20px;
 }
-#title-style {
-  color: orange;
+h3 {
+  font-size: 30px;
+  font-weight: 600;
 }
 p {
   font-size: 20px;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .btn {
-  padding: 10px 20px;
   text-decoration: none;
-  background-color: rgb(255, 89, 89);
-  display: block;
-  margin: 15px 0;
-  text-align: center;
-  width: 120px;
-  color: #fff;
-  border-radius: 6px;
-  transition: 0.5s;
+  background-color: red;
+  padding: 13px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.6s;
+  color: #ffffff;
 }
 .btn:hover {
-  background-color: rgb(216, 38, 38);
+  background-color: rgb(207, 85, 85);
+  color: #ffffff;
 }
 .container {
+  height: 600px;
   width: 100%;
+  margin-bottom: 20px;
+  /* background-color: rgb(206, 168, 168); */
+}
+.container .blog {
+  width: 80%;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-bottom: 50px;
-}
-.blog-items {
-  width: 40%;
-  padding-top: 5%;
-  padding-left: 5%;
-  margin-left: 10%;
-}
-.container .blog-items img {
-  width: 250px;
-}
-/* ======================== */
-
-.mission-section {
-  width: 100%;
-  margin-bottom: 150px;
-}
-.mission-section .mission-blog {
-  display: flex;
-  width: 70%;
   margin: 0 auto;
   justify-content: space-between;
-  align-content: space-between;
-  /* background-color: rgb(255, 89, 89); */
+  align-content: center;
 }
-.mission-blog img {
-  width: 120px;
+.blog-items {
+  margin-top: 150px;
+  height: 400px;
+  width: 45%;
 }
-.mission-title {
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 50px;
+#title-border {
+  font-size: 46px;
 }
-.box-items {
+.vartical {
+  background-color: red;
+  width: 4px;
+  height: 126px;
+  margin-top: 17px;
+  margin-right: 15px;
+  border-radius: 50px;
+  float: left;
+}
+#title-style {
+  color: rgb(218, 184, 93);
+}
+.blog-items img {
   height: 100%;
-  width: 30%;
-  padding: 20px;
+  width: 100%;
+}
+/* header section end */
+
+/* mission section start */
+
+.mission-section {
+  height: 600px;
+  width: 100%;
+}
+.mission-section .mission-title {
+  text-align: center;
+}
+.mission-section .mission-blog {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: center;
+}
+.mission-section .mission-blog .box-items img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+.mission-section .mission-blog .box-items {
+  margin-top: 50px;
+  height: 360px;
+  width: 28%;
   border-radius: 10px;
-  /* border: 1px solid blue; */
+  padding: 20px;
+}
+
+#mission {
+  background-color: rgb(238, 234, 221);
+  transition: 0.6s;
+}
+#mission:hover {
+  background-color: rgb(218, 208, 181);
+}
+#vission {
+  background-color: rgb(223, 235, 223);
+  transition: 0.6s;
+}
+#vission:hover {
+  background-color: rgb(215, 255, 214);
 }
 #goals {
+  background-color: rgb(194, 190, 178);
+  transition: 0.6s;
+}
+#goals:hover {
   background-color: rgb(255, 244, 214);
 }
+
+/* mission section end */
+/* develop section start */
+.develop {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 40px;
+  /* background-image: url(../images/shapes/cercle-up-big.png); */
+  background-repeat: no-repeat;
+}
+.develop .dev-blog {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.develop .dev-blog .dev-img {
+  margin-top: 50px;
+  height: 360px;
+  width: 20%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.develop .dev-blog .dev-title {
+  margin-top: 75px;
+  margin-left: 200px;
+  height: 360px;
+  width: 55%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.develop .dev-blog .dev-title h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.develop .dev-blog .dev-title p {
+  font-size: 25px;
+  line-height: 30px;
+}
+.develop .dev-blog .dev-img img {
+  width: 400px;
+  height: 400px;
+}
+/* develop section end */
+
+/* Global section start */
+.global-section {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.global-section .global-content {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.global-section .global-content .global-title {
+  margin-top: 100px;
+  width: 50%;
+  height: 400px;
+}
+.global-section .global-content .global-title h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.global-section .global-content .global-title p {
+  font-size: 25px;
+  line-height: 30px;
+}
+.global-section .global-content .global-img {
+  margin-top: 80px;
+  height: 35%;
+  width: 35%;
+}
+.global-section .global-content .global-img img {
+  height: 100%;
+  width: 100%;
+}
+/* Global section end */
