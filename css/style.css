@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Luxurious Roman", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 /* header section start */
-h2 {
-  font-size: 50px;
-}
-h3 {
-  font-size: 30px;
-  font-weight: 600;
-}
+
 p {
   font-size: 20px;
   margin: 40px 0;
@@ -74,6 +73,7 @@ p {
 }
 .mission-section .mission-title {
   text-align: center;
+  font-size: 50px;
 }
 .mission-section .mission-blog {
   width: 80%;
@@ -93,6 +93,10 @@ p {
   width: 28%;
   border-radius: 10px;
   padding: 20px;
+}
+.mission-section .mission-blog .box-items h3 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 #mission {
@@ -195,3 +199,64 @@ p {
   width: 100%;
 }
 /* Global section end */
+
+/* Corona section start */
+
+.corona-section {
+  height: 650px;
+  width: 100%;
+}
+.corona-section h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.corona-section .corona-content {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: rgb(207, 85, 85);
+}
+.corona-section .corona-content .box-items {
+  width: 50%;
+  margin-top: 40px;
+}
+.corona-section .corona-content .box-title {
+  width: 50%;
+  margin-top: 40px;
+}
+.corona-section .corona-content .box-title p {
+  line-height: 30px;
+}
+.corona-section .corona-content .box-title h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.corona-section .corona-content .box-items img {
+  width: 357px;
+  margin-top: -68px;
+  height: 551px;
+}
+
+/* Corona section end */
+/* footer section start */
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+footer .footer-style {
+  margin-top: 15px;
+  font-size: 40px;
+}
+footer p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+/* footer section end */
